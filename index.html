@@ -1,0 +1,20 @@
+<div class="container">
+    <h1>Loan Calculator </h1>
+    <p>Loan amount: $
+        <input type="number" id="amount" 
+               placeholder="Enter amount">
+    </p>
+    <p>Rate (Interest): %
+        <input step=".1" id="rate" 
+               placeholder="Enter rate">
+    </p>
+    <p>Months (Time):
+        <input type="number" id="time" 
+               placeholder="Enter time">
+    </p>
+    <input type="button" value="Calculate" 
+           id="btn" onclick="calculate()">
+    <p>Total EMI: $
+        <span id="output"></span>
+    </p>
+</div>
